@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todoz.api", "todoz.api\todoz.api.csproj", "{20DBBDB0-50ED-44CD-AA9B-56A3D1790A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindassist.api", "mindassist.api\mindassist.api.csproj", "{F4B68304-B590-4545-A88B-4DFE5A714495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20DBBDB0-50ED-44CD-AA9B-56A3D1790A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20DBBDB0-50ED-44CD-AA9B-56A3D1790A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20DBBDB0-50ED-44CD-AA9B-56A3D1790A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B68304-B590-4545-A88B-4DFE5A714495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B68304-B590-4545-A88B-4DFE5A714495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B68304-B590-4545-A88B-4DFE5A714495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B68304-B590-4545-A88B-4DFE5A714495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

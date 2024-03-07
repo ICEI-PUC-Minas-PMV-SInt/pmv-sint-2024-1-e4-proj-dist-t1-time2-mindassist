@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gomes_3in\\Workspace\\template-sint-projeto-de-aplicacao-distribuido\\src\\todoz.api\\todoz.api.csproj": {}
+    "C:\\c-workspace\\educational\\puc-minas\\pmv-sint-2024-1-e4-proj-dist-t1-time2-mindassist\\src\\todoz.api\\todoz.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gomes_3in\\Workspace\\template-sint-projeto-de-aplicacao-distribuido\\src\\todoz.api\\todoz.api.csproj": {
+    "C:\\c-workspace\\educational\\puc-minas\\pmv-sint-2024-1-e4-proj-dist-t1-time2-mindassist\\src\\todoz.api\\todoz.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gomes_3in\\Workspace\\template-sint-projeto-de-aplicacao-distribuido\\src\\todoz.api\\todoz.api.csproj",
+        "projectUniqueName": "C:\\c-workspace\\educational\\puc-minas\\pmv-sint-2024-1-e4-proj-dist-t1-time2-mindassist\\src\\todoz.api\\todoz.api.csproj",
         "projectName": "todoz.api",
-        "projectPath": "C:\\Users\\gomes_3in\\Workspace\\template-sint-projeto-de-aplicacao-distribuido\\src\\todoz.api\\todoz.api.csproj",
-        "packagesPath": "C:\\Users\\gomes_3in\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gomes_3in\\Workspace\\template-sint-projeto-de-aplicacao-distribuido\\src\\todoz.api\\obj\\",
+        "projectPath": "C:\\c-workspace\\educational\\puc-minas\\pmv-sint-2024-1-e4-proj-dist-t1-time2-mindassist\\src\\todoz.api\\todoz.api.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\c-workspace\\educational\\puc-minas\\pmv-sint-2024-1-e4-proj-dist-t1-time2-mindassist\\src\\todoz.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gomes_3in\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
