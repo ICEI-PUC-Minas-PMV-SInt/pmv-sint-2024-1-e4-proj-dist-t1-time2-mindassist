@@ -7,6 +7,5 @@
         public string Response { get; set; }
         public DateTime Timestamp { get; set; }
         public Guid ChatId { get; set; }
-        public Chat Chat { get; set; }
     }
 }

@@ -4,7 +4,7 @@ namespace mindassist.api
 {
     public static class DbInitializer
     {
-        public static void Initialize(MindAssistContext context)
+        public static void Initialize(AppDbContext context)
         {
             // Ensure the database is created
             context.Database.EnsureCreated();
@@ -18,9 +18,9 @@ namespace mindassist.api
             // Create some fake users
             var users = new User[]
             {
-                new User { Username = "Alice" },
-                new User { Username = "Bob" },
-                new User { Username = "Charlie" }
+                new User { Username = "Lucas" },
+                new User { Username = "João" },
+                new User { Username = "John" }
             };
             context.Users.AddRange(users);
             context.SaveChanges();
@@ -37,9 +37,11 @@ namespace mindassist.api
 
             var messages = new ChatMessage[]
             {
-                new ChatMessage { Prompt = "Hello", Response = "Hi there!", ChatId = chats[0].Id, Timestamp = DateTime.Now },
-                new ChatMessage { Prompt = "How are you?", Response = "I'm good, thanks!", ChatId = chats[1].Id, Timestamp = DateTime.Now },
-                new ChatMessage { Prompt = "What's up?", Response = "Not much, you?", ChatId = chats[2].Id, Timestamp = DateTime.Now }
+                new ChatMessage { Prompt = "Olá", Response = "Olá!Tudo bem?", ChatId = chats[0].Id, Timestamp = DateTime.Now },
+                new ChatMessage { Prompt = "Como você está?", Response = "Estou bem, obrigado. E você?", ChatId = chats[1].Id, Timestamp = DateTime.Now },
+                new ChatMessage { Prompt = "Novidades?", Response = "Não muitas, e você?", ChatId = chats[2].Id, Timestamp = DateTime.Now },
+                new ChatMessage { Prompt = "O mesmo. Sobre o que você gostaria de falar hoje?", Response = "Você quem manda! Podemos falar desde psicologia até física!", ChatId = chats[2].Id, Timestamp = DateTime.Now },
+                new ChatMessage { Prompt = "Hmmm. Cansei!", Response = "Podemos conversar quando você quiser!", ChatId = chats[2].Id, Timestamp = DateTime.Now }
             };
             context.ChatMessages.AddRange(messages);
             context.SaveChanges();

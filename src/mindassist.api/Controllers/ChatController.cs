@@ -8,9 +8,9 @@ namespace mindassist.api.Controllers
     [ApiController]
     public class ChatController : ControllerBase
     {
-        private readonly MindAssistContext _context;
+        private readonly AppDbContext _context;
 
-        public ChatController(MindAssistContext context)
+        public ChatController(AppDbContext context)
         {
             _context = context;
         }
@@ -19,7 +19,7 @@ namespace mindassist.api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Chat>>> GetChats()
         {
-            return await _context.Chats.Include(c => c.Messages).ToListAsync();
+            return await _context.Chats.ToListAsync();
         }
 
         // GET: api/Chat/5

@@ -9,9 +9,9 @@ namespace mindassist.api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly MindAssistContext _context;
+        private readonly AppDbContext _context;
 
-        public UserController(MindAssistContext context)
+        public UserController(AppDbContext context)
         {
             _context = context;
         }
