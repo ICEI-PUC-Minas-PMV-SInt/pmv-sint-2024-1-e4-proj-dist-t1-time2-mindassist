@@ -1,15 +1,15 @@
 # Problemas & dores
 
-> Descreva de forma abrangente os principais problemas e dores que o produto de software resolverá.
-> Detalhes específicos sobre as funcionalidades serão elaborados posteriormente. A seguinte pergunta
-> pode auxiliar nessa descrição: quais são os problemas e dores mais relevantes encontrados no cenário corrente?
+1. CONFIDENCIALIDADE E PROVACIDADE: Especialmente em ambientes domésticos movimentados, onde a presença de outras pessoas pode comprometer a confidencialidade das conversas impedindo que os usuários se beneficiem plenamente do suporte terapêutico necessário para enfrentar seus desafios emocionais, o aplicativo Mindassist,e proporciona o chat. Uma alternativa conveniente e acessível para aqueles que lutam para garantir a privacidade necessária durante a busca por suporte emocional de que precisam.
 
-1. Dificuldade em organizar e gerenciar múltiplas tarefas em projetos distintos.
-2. Dificuldade de concentração, resultando em redução da produtividade durante a execução das atividades.
-3. Necessidade de priorizar as atividades de acordo com sua importância e urgência.
-4. Medição precisa do tempo dedicado a cada tarefa e projeto para fins de cobrança ao cliente.
-5. Necessidade de integração com o Google Calendar para sincronização das atividades e agenda.
-6. Dificuldade em visualizar o custo real de cada projeto com base nas horas trabalhadas.
-8. Falta de uma solução unificada para a gestão do trabalho e do tempo de freelancers.
+2. *AVALIAÇÃO CORPORAL: Uma vez que o aplicativo funciona com troca de mensagens, limitações como observar a linguagem corporal do usuário com a mesma precisão que em sessões presenciais, podem ocorrer. Desta forma, a compreensão sobre o estado emocional do usuário e pode exigir uma adaptação na abordagem sistêmica.
+
+3. TECNOLOGIA E ACESSIBILIDADE: Enquanto alguns usuários podem se beneficiar plenamente das capacidades do aplicativo para monitorar e melhorar seu bem-estar emocional, outros podem enfrentar desafios significativos devido à falta de familiaridade com a tecnologia ou à ausência de acesso a dispositivos e conexões à internet. Essa disparidade pode criar uma divisão digital, excluindo aqueles que mais precisam de apoio emocional devido a barreiras tecnológicas e limitando a eficácia do Mindassist em atender verdadeiramente a uma ampla gama de usuários.
+
+4. LIMITAÇÕES NA INTERVENÇÕES EM CRISES:  Em situações de crise ou emergência, o aplicativo pode apresentar limitações na capacidade de intervir imediatamente e fornecer suporte adequado. Nesses casos, é importante ter planos de contingência claros e diretrizes para encaminhamento a serviços de emergência locais.
+
+5. TELEATENDIMENTO SUBSTITUI ATENDIMENTO PRESENCIAL?: Dentro do aplicativo Mindassist, diversos métodos terapêuticos são empregados para promover o bem-estar emocional dos usuários, mantendo-se fiel ao seu lema de ser terapêutico, mas não terapia. Uma abordagem central é a utilização de técnicas de mindfulness, onde os usuários são guiados em exercícios de atenção plena para ajudá-los a cultivar uma maior consciência de seus pensamentos e emoções. Além disso, estratégias de terapia cognitivo-comportamental (TCC) são incorporadas, permitindo aos usuários identificar e desafiar padrões de pensamento negativos ou disfuncionais que podem estar contribuindo para seu mal-estar emocional. O aplicativo também oferece recursos de autoexpressão criativa, como diários digitais e ferramentas de expressão artística, que permitem aos usuários explorar e processar suas emoções de forma mais profunda. Esses métodos terapêuticos são cuidadosamente projetados para capacitar os usuários a desenvolver habilidades de autorreflexão e autoajuda, promovendo assim um maior autocuidado emocional e bem-estar mental. Portanto, é crucial esclarecer que o Mindassist é uma ferramenta complementar, não uma alternativa completa à terapia, e promover uma compreensão mais precisa de seu papel no contexto do autocuidado emocional e do suporte terapêutico.
+
+Em resumo, embora o aplicativo  apresente desafios únicos, muitos terapeutas e pacientes têm encontrado benefícios significativos na sua utilização, especialmente em situações onde o acesso ao tratamento presencial é limitado ou impraticável
 
 [Retorna](../README.md)
