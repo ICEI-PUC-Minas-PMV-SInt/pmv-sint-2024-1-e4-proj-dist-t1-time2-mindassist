@@ -1,4 +1,10 @@
-MINDASSIST
+## MINDASSIST
+
+## Integrantes
+- Lucas Pedro Abreu
+- João Pedro Leite
+- John Torres do Vale
+- Carolina Dolacio Bechelli
 
 ## INTRODUÇÃO
 
