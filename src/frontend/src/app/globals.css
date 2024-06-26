@@ -1,0 +1,311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './custom.css';
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    /* Light Theme Named Colors - Original Variants */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-darker: 0 84.2% 50%;
+    --destructive-lighter: 0 84.2% 70%;
+
+    --warning: 38 92% 50%;
+    --warning-darker: 38 92% 40%;
+    --warning-lighter: 38 92% 60%;
+
+    --success: 120 39% 53%;
+    --success-darker: 120 39% 43%;
+    --success-lighter: 120 39% 63%;
+
+    --info: 207 90% 54%;
+    --info-darker: 207 90% 44%;
+    --info-lighter: 207 90% 64%;
+
+    /* Light Theme Named Colors - Second Variant */
+    --destructive-variant: 345 84.2% 60.2%;
+    --destructive-variant-darker: 345 84.2% 50%;
+    --destructive-variant-lighter: 345 84.2% 70%;
+
+    --warning-variant: 30 92% 50%;
+    --warning-variant-darker: 30 92% 40%;
+    --warning-variant-lighter: 30 92% 60%;
+
+    --success-variant: 150 39% 53%;
+    --success-variant-darker: 150 39% 43%;
+    --success-variant-lighter: 150 39% 63%;
+
+    --info-variant: 197 90% 54%;
+    --info-variant-darker: 197 90% 44%;
+    --info-variant-lighter: 197 90% 64%;
+
+    /* Dark Theme Colors - Original Variants */
+    --dark-destructive: 0 62.8% 30.6%;
+    --dark-destructive-darker: 0 62.8% 20%;
+    --dark-destructive-lighter: 0 62.8% 40%;
+
+    --dark-warning: 48 96% 89%;
+    --dark-warning-darker: 48 96% 79%;
+    --dark-warning-lighter: 48 96% 99%;
+
+    --dark-success: 120 39% 40%;
+    --dark-success-darker: 120 39% 30%;
+    --dark-success-lighter: 120 39% 50%;
+
+    --dark-info: 207 90% 40%;
+    --dark-info-darker: 207 90% 30%;
+    --dark-info-lighter: 207 90% 50%;
+
+    /* Dark Theme Colors - Second Variants */
+    --dark-destructive-variant: 345 62.8% 30.6%;
+    --dark-destructive-variant-darker: 345 62.8% 20%;
+    --dark-destructive-variant-lighter: 345 62.8% 40%;
+
+    --dark-warning-variant: 30 96% 89%;
+    --dark-warning-variant-darker: 30 96% 79%;
+    --dark-warning-variant-lighter: 30 96% 99%;
+
+    --dark-success-variant: 150 39% 40%;
+    --dark-success-variant-darker: 150 39% 30%;
+    --dark-success-variant-lighter: 150 39% 50%;
+
+    --dark-info-variant: 197 90% 40%;
+    --dark-info-variant-darker: 197 90% 30%;
+    --dark-info-variant-lighter: 197 90% 50%;
+
+    /* Light Theme Colors - Original Variants */
+    --destructive-foreground: 0 0% 100%;
+    --destructive-darker-foreground: 0 0% 100%;
+    --destructive-lighter-foreground: 0 84.2% 30%;
+
+    --warning-foreground: 0 0% 100%;
+    --warning-darker-foreground: 0 0% 100%;
+    --warning-lighter-foreground: 38 92% 30%;
+
+    --success-foreground: 0 0% 100%;
+    --success-darker-foreground: 0 0% 100%;
+    --success-lighter-foreground: 120 39% 33%;
+
+    --info-foreground: 0 0% 100%;
+    --info-darker-foreground: 0 0% 100%;
+    --info-lighter-foreground: 207 90% 34%;
+
+    /* Light Theme Colors - Second Variants */
+    --destructive-variant-foreground: 0 0% 100%;
+    --destructive-variant-darker-foreground: 0 0% 100%;
+    --destructive-variant-lighter-foreground: 345 84.2% 30%;
+
+    --warning-variant-foreground: 0 0% 100%;
+    --warning-variant-darker-foreground: 0 0% 100%;
+    --warning-variant-lighter-foreground: 30 92% 30%;
+
+    --success-variant-foreground: 0 0% 100%;
+    --success-variant-darker-foreground: 0 0% 100%;
+    --success-variant-lighter-foreground: 150 39% 33%;
+
+    --info-variant-foreground: 0 0% 100%;
+    --info-variant-darker-foreground: 0 0% 100%;
+    --info-variant-lighter-foreground: 197 90% 34%;
+
+    /* Dark Theme Colors - Original Variants */
+    --dark-destructive-foreground: 210 40% 98%;
+    --dark-destructive-darker-foreground: 210 40% 98%;
+    --dark-destructive-lighter-foreground: 0 62.8% 10%;
+
+    --dark-warning-foreground: 48 96% 70%;
+    --dark-warning-darker-foreground: 48 96% 70%;
+    --dark-warning-lighter-foreground: 38 92% 70%;
+
+    --dark-success-foreground: 120 39% 60%;
+    --dark-success-darker-foreground: 120 39% 60%;
+    --dark-success-lighter-foreground: 120 39% 70%;
+
+    --dark-info-foreground: 207 90% 60%;
+    --dark-info-darker-foreground: 207 90% 60%;
+    --dark-info-lighter-foreground: 207 90% 70%;
+
+    /* Dark Theme Colors - Second Variants */
+    --dark-destructive-variant-foreground: 345 62.8% 70%;
+    --dark-destructive-variant-darker-foreground: 345 62.8% 70%;
+    --dark-destructive-variant-lighter-foreground: 345 62.8% 10%;
+
+    --dark-warning-variant-foreground: 30 96% 70%;
+    --dark-warning-variant-darker-foreground: 30 96% 70%;
+    --dark-warning-variant-lighter-foreground: 30 92% 70%;
+
+    --dark-success-variant-foreground: 150 39% 60%;
+    --dark-success-variant-darker-foreground: 150 39% 60%;
+    --dark-success-variant-lighter-foreground: 150 39% 70%;
+
+    --dark-info-variant-foreground: 197 90% 60%;
+    --dark-info-variant-darker-foreground: 197 90% 60%;
+    --dark-info-variant-lighter-foreground: 197 90% 70%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+
+    --destructive: var(--dark-destructive);
+    --destructive-darker: var(--dark-destructive-darker);
+    --destructive-lighter: var(--dark-destructive-lighter);
+
+    --warning: var(--dark-warning);
+    --warning-darker: var(--dark-warning-darker);
+    --warning-lighter: var(--dark-warning-lighter);
+
+    --success: var(--dark-success);
+    --success-darker: var(--dark-success-darker);
+    --success-lighter: var(--dark-success-lighter);
+
+    --info: var(--dark-info);
+    --info-darker: var(--dark-info-darker);
+    --info-lighter: var(--dark-info-lighter);
+
+    --destructive-variant: var(--dark-destructive-variant);
+    --destructive-variant-darker: var(--dark-destructive-variant-darker);
+    --destructive-variant-lighter: var(--dark-destructive-variant-lighter);
+
+    --warning-variant: var(--dark-warning-variant);
+    --warning-variant-darker: var(--dark-warning-variant-darker);
+    --warning-variant-lighter: var(--dark-warning-variant-lighter);
+
+    --success-variant: var(--dark-success-variant);
+    --success-variant-darker: var(--dark-success-variant-darker);
+    --success-variant-lighter: var(--dark-success-variant-lighter);
+
+    --info-variant: var(--dark-info-variant);
+    --info-variant-darker: var(--dark-info-variant-darker);
+    --info-variant-lighter: var(--dark-info-variant-lighter);
+
+    --destructive-foreground: var(--dark-destructive-foreground);
+    --destructive-darker-foreground: var(--dark-destructive-darker-foreground);
+    --destructive-lighter-foreground: var(--dark-destructive-lighter-foreground);
+
+    --warning-foreground: var(--dark-warning-foreground);
+    --warning-darker-foreground: var(--dark-warning-darker-foreground);
+    --warning-lighter-foreground: var(--dark-warning-lighter-foreground);
+
+    --success-foreground: var(--dark-success-foreground);
+    --success-darker-foreground: var(--dark-success-darker-foreground);
+    --success-lighter-foreground: var(--dark-success-lighter-foreground);
+
+    --info-foreground: var(--dark-info-foreground);
+    --info-darker-foreground: var(--dark-info-darker-foreground);
+    --info-lighter-foreground: var(--dark-info-lighter-foreground);
+
+    --destructive-variant-foreground: var(--dark-destructive-variant-foreground);
+    --destructive-variant-darker-foreground: var(--dark-destructive-variant-darker-foreground);
+    --destructive-variant-lighter-foreground: var(--dark-destructive-variant-lighter-foreground);
+
+    --warning-variant-foreground: var(--dark-warning-variant-foreground);
+    --warning-variant-darker-foreground: var(--dark-warning-variant-darker-foreground);
+    --warning-variant-lighter-foreground: var(--dark-warning-variant-lighter-foreground);
+
+    --success-variant-foreground: var(--dark-success-variant-foreground);
+    --success-variant-darker-foreground: var(--dark-success-variant-darker-foreground);
+    --success-variant-lighter-foreground: var(--dark-success-variant-lighter-foreground);
+
+    --info-variant-foreground: var(--dark-info-variant-foreground);
+    --info-variant-darker-foreground: var(--dark-info-variant-darker-foreground);
+    --info-variant-lighter-foreground: var(--dark-info-variant-lighter-foreground);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .h1,
+  .h2,
+  .h3,
+  .h4 {
+    @apply scroll-m-20 tracking-tight;
+  }
+
+  .h1 {
+    @apply text-4xl font-extrabold;
+    @apply lg:text-5xl;
+  }
+
+  .h2 {
+    @apply text-3xl font-semibold;
+    @apply border-b pb-2 first:mt-0;
+  }
+
+  .h3 {
+    @apply text-2xl font-semibold;
+  }
+
+  .h4 {
+    @apply text-xl font-semibold;
+  }
+
+  .p {
+    @apply leading-7 [&:not(:first-child)]:mt-6;
+  }
+
+  .ul {
+    @apply my-6 ml-6 list-disc [&>li]:mt-2;
+  }
+
+  .code {
+    @apply relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
+  }
+}

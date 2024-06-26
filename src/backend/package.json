@@ -1,0 +1,44 @@
+{
+  "name": "beckend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsup",
+    "start": "node dist/server.js",
+    "dev": "tsx watch --inspect src/server.ts",
+    "instrospect": "drizzle-kit instrospect:pg --config=drizzle.config.ts",
+    "generate": "drizzle-kit generate:pg --config=drizzle.config.ts",
+    "migrate": "tsx -r dotenv/config src/db/migrate.ts",
+    "studio": "drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "9.0.1",
+    "argon2": "0.40.1",
+    "date-fns": "3.6.0",
+    "dotenv": "16.4.5",
+    "drizzle-orm": "0.30.9",
+    "drizzle-zod": "0.5.1",
+    "fastify": "4.27.0",
+    "http-errors": "2.0.0",
+    "pg": "8.11.5",
+    "pino-pretty": "11.0.0",
+    "rimraf": "5.0.5",
+    "typescript": "5.4.5",
+    "zod": "3.23.5"
+  },
+  "devDependencies": {
+    "@types/http-errors": "2.0.4",
+    "@types/node": "^20.12.7",
+    "@types/pg": "8.11.5",
+    "drizzle-kit": "0.20.17",
+    "eslint": "9.1.1",
+    "globals": "15.0.0",
+    "tsup": "8.0.2",
+    "tsx": "4.7.3",
+    "typescript": "5.4.5"
+  }
+}

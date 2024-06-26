@@ -20,7 +20,8 @@ namespace mindassist.api
             {
                 new User { Username = "Lucas" },
                 new User { Username = "João" },
-                new User { Username = "John" }
+                new User { Username = "John" },
+                new User { Username = "Carol"}
             };
             context.Users.AddRange(users);
             context.SaveChanges();

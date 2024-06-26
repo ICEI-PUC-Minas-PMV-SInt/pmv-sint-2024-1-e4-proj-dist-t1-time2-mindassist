@@ -1,0 +1,153 @@
+.glassmorphic-bg {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px; /* Padding around text */
+  backdrop-filter: blur(3px); /* Blur effect for the frosted glass look */
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.25); /* Light white border for subtle outline */
+}
+
+.glassmorphic-bg-dark {
+  background: rgba(18, 17, 17, 0.2); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px; /* Padding around text */
+  backdrop-filter: blur(3px); /* Blur effect for the frosted glass look */
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(18, 17, 17, 0.25); /* Light white border for subtle outline */
+}
+
+/* ==== clerk class override ===== */
+
+.mobile-navbar-clerk .cl-userButtonPopoverCard {
+  @apply hidden bg-red-500;
+}
+
+.cl-logoBox {
+  @apply flex justify-center items-center min-h-32;
+}
+
+.cl-header {
+  @apply text-center;
+}
+
+.cl-headerSubtitle {
+  @apply w-[20ch] self-center;
+}
+
+.cl-logoBox > a {
+  @apply h-[60%];
+}
+
+.cl-socialButtonsIconButton:hover {
+  @apply border-info bg-info-lighter;
+}
+
+.cl-socialButtonsIconButton:hover .cl-socialButtonsProviderIcon {
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+.cl-socialButtonsProviderIcon__apple {
+  @apply ease-in-out invert-[1] transition duration-1000;
+}
+
+.cl-userButtonPopoverActionButtonIcon {
+  color: white;
+}
+
+.cl-logoBox {
+  height: 40px;
+}
+.cl-dividerLine {
+  background: #252a41;
+  height: 2px;
+}
+
+.cl-socialButtonsIconButton {
+  border: 3px solid #565761;
+}
+
+.cl-internal-wkkub3 {
+  color: white;
+}
+.cl-userButtonPopoverActionButton {
+  color: white;
+}
+
+.mobile-navbar-clerk .cl-userButtonBox {
+  @apply flex flex-col-reverse;
+}
+
+.navbar-clerk .cl-userButtonOuterIdentifier {
+  @apply sm:flex text-nowrap pr-4 hidden;
+}
+
+.cl-userButtonOuterIdentifier {
+  @apply text-muted font-semibold;
+}
+
+/* ======== stream css overrides ======== */
+.str-video__call-stats {
+  max-width: 500px;
+  position: relative;
+}
+
+.str-video__speaker-layout__wrapper {
+  max-height: 700px;
+}
+
+.str-video__participant-details {
+  color: white;
+}
+
+.str-video__menu-container {
+  color: white;
+}
+
+.str-video__notification {
+  color: white;
+}
+
+.str-video__participant-list {
+  background-color: #1c1f2e;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  height: 100%;
+}
+
+.str-video__call-controls__button {
+  height: 40px;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.glassmorphism2 {
+  background: rgba(18, 17, 17, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* animation */
+
+.show-user-list {
+  width: 100%;
+  max-width: 350px;
+  display: block !important;
+  animation: showBlockAnim 0.7s forwards linear;
+}
+
+@keyframes showBlockAnim {
+  0% {
+    animation-timing-function: ease-in;
+    width: 0%;
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+    width: 100%;
+  }
+}

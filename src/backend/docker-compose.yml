@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  generic-pg-docker:
+    image: bitnami/postgresql
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: generic-db

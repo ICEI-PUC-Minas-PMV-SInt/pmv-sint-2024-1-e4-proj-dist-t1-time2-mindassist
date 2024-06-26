@@ -39,12 +39,19 @@ namespace mindassist.api.Controllers
 
         // POST: api/User
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<User>> PostUser(UserDto userInput)
         {
-            _context.Users.Add(user);
+            User newUser = new User()
+            {
+                Username = userInput.Username,
+                Password = BCrypt.Net.BCrypt.HashPassword(userInput.Password),
+                Chats = new List<Chat>()
+            };
+
+            _context.Users.Add(newUser);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
+            return CreatedAtAction(nameof(GetUser), new { id = newUser.Id }, newUser);
         }
 
         // PUT: api/User/5
