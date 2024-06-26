@@ -1,34 +1,28 @@
-# Trade-offs de Características de Qualidade
+As categorias de requisitos não-funcionais para o produto MindAssist seriam:
 
-As categorias de requisitos não-funcionais para o produto de software "FocusFlow", conforme o modelo FURPS+, seriam:
+1. *Usabilidade*: 
 
-1. **Usabilidade**: 
-   
-   a. O sistema deve ser fácil de usar com uma interface intuitiva e amigável, permitindo que 90% dos usuários realizem tarefas sem precisar de assistência após uma única sessão de treinamento.
+   a. A interface do usuário deve ser intuitiva, amigável e fácil de usar, com recursos de design que promovam a confiança e o engajamento dos usuários.
 
-2. **Desempenho**: 
-   
-   a. O sistema deve ser altamente responsivo às ações do usuário, garantindo que o tempo de resposta para qualquer interação não ultrapasse 2 segundos, independentemente do número de tarefas que está sendo gerenciado.
+2. *Desempenho*: 
 
-   b. O sistema deve possuir escalabilidade horizontal através do desacoplamento, alcançada pela implementação de APIs RESTful.
+   a. Garantir tempos de resposta rápidos e eficientes para as interações dos usuários, minimizando o tempo de espera e garantindo uma experiência fluida e responsiva.
 
-3. **Confiabilidade**: 
-   
-   a. O sistema deve ser robusto e livre de erros, sendo equipado com mecanismos para enfrentar falhas, garantir a recuperação de dados e assegurar uma disponibilidade de 99,9%, o que significa que ele não deve exceder 8,76 horas de inatividade por ano.
-   
-   b. O sistema deve requerer a autenticação de usuários para acessar suas tarefas e configurações pessoais, suportando um mecanismo robusto, como autenticação de dois fatores, para garantir acesso seguro às informações. Em relação à segurança, após três tentativas de login falhas, o usuário é bloqueado temporariamente para evitar tentativas de força bruta. Além disso, as senhas são armazenadas com segurança usando técnicas de hash e sal.
+4. *Confiabilidade*: 
 
-4. **Suportabilidade**: 
-   
-   a. O sistema deve ser projetado de forma a facilitar futuras atualizações e manutenção, garantindo que todas as solicitações de suporte sejam respondidas dentro de 24 horas.
+   a. O sistema deve estar disponível e acessível aos usuários sempre que precisarem, com uma infraestrutura confiável que minimize o tempo de inatividade e garanta a disponibilidade contínua do serviço.
+
+5. *Segurança e Privacidade*: 
+
+   a. Garantir que todas as interações dos usuários sejam seguras e protegidas, com medidas robustas de criptografia e proteção de dados para garantir a confidencialidade das informações pessoais dos usuários.
 
 A importância relativa de cada categoria:
 
-| Categoria | Usabilidade | Desempenho | Confiabilidade | Suportabilidade |
+| Categoria | Usabilidade | Desempenho | Confiabilidade | Segurança |
 | --- | --- | --- | --- | --- |
-| Usabilidade | - | > | > | > |
-| Desempenho | < | - | < | > |
-| Confiabilidade | < | > | - | > |
-| Suportabilidade | < | < | < | - |
+| Usabilidade | - | > | > | < |
+| Desempenho | < | - | < | < |
+| Confiabilidade | < | > | - | < |
+| Segurança | > | > | > | - |
 
-> Nesta matriz, o sinal ">" indica que a categoria da linha é mais importante que a categoria da coluna, e o sinal "<" indica que a categoria da linha é menos importante que a categoria da coluna. Por exemplo, a Usabilidade é considerada mais importante que o Desempenho, Confiabilidade e Suportabilidade, enquanto o Desempenho é considerado mais importante que a Suportabilidade, mas menos importante que a Usabilidade e Confiabilidade, e assim por diante.
+> Nesta matriz, o sinal ">" indica que a categoria da linha é mais importante que a categoria da coluna, e o sinal "<" indica que a categoria da linha é menos importante que a categoria da coluna. Por exemplo, a Usabilidade é considerada mais importante que o Desempenho, Confiabilidade e Segurança, enquanto o Desempenho é considerado mais importante que a Segurança, mas menos importante que a Usabilidade e Confiabilidade, e assim por diante.

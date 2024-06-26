@@ -1,15 +1,20 @@
-> Identifique o produto que será construído. Para isso, nomeie-o da seguinte forma: imagine o produto em uma caixa, qual nome estaria 
-> escrito nela?
-# ToDoZ
+## MINDASSIST
 
-# Visão do Produto
-> Ter uma visão clara do produto é essencial para entender como as primeiras peças do quebra-cabeça do seu negócio se encaixarão. Essa
-> visão deve capturar a essência do valor que seu negócio oferece e transmitir uma mensagem clara e cativante para seus clientes. 
-> Utilize o seguinte modelo para criar a visão do seu produto:
+## Integrantes
+- Lucas Pedro Abreu
+- João Pedro Leite
+- John Torres do Vale
+- Carolina Dolacio Bechelli
 
-> Para [o nome do cliente final], cujo [o problema que precisa ser resolvido]. O [o nome do produto] é [a categoria do produto] que [o benefício-chave, razão para adquiri-lo]. Diferentemente de [alternativa da concorrência], o nosso produto [a diferença-chave].
+## INTRODUÇÃO
 
-Para freelancers que trabalham em diversos projetos, cujo desafio é gerenciar tarefas, priorizar atividades, manter o foco e medir o custo de cada projeto com precisão. O ToDoZ é um software de gerenciamento de tarefas e tempo baseado na técnica de pomodoro e método de Eisenhower, que melhora a concentração, aumenta a produtividade e permite um melhor planejamento financeiro. Diferentemente de outras opções no mercado, nosso produto oferece uma solução completa e eficiente para o dia a dia do freelancer.
+Contexto:
+Nos últimos anos, o campo da saúde testemunhou uma crescente adoção da telemedicina como uma ferramenta fundamental para fornecer serviços médicos à distância. O advento da telemedicina tem sido impulsionado por avanços tecnológicos significativos e pela necessidade crescente de acessibilidade e conveniência nos cuidados de saúde. De acordo com dados recentes da Organização Mundial da Saúde (OMS), o uso da telemedicina aumentou globalmente em mais de 100% nos últimos cinco anos, refletindo uma mudança substancial na forma como os pacientes acessam e recebem cuidados médicos.
+
+Nesse contexto, o aplicativo Mindassist surge como uma resposta inovadora às necessidades emergentes no campo da saúde mental. Ao integrar técnicas de processamento de linguagem natural e aprendizado de máquina, o Mindassist capitaliza a crescente disponibilidade de dados digitais gerados pelos pacientes, como diários pessoais e interações em redes sociais. Essa abordagem permite uma análise profunda do bem-estar emocional dos usuários, oferecendo insights precisos e recomendações personalizadas para melhorar sua saúde mental.
+
+O Mindassist é terapêutico, mas não é terapia. Enquanto um terapeuta é um profissional treinado para diagnosticar e tratar problemas de saúde mental, o Mindassist atua como um complemento valioso, oferecendo suporte emocional e insights baseados em dados. Ao contrário de um terapeuta, o Mindassist não faz diagnósticos ou prescreve tratamentos específicos, mas sim fornece uma plataforma acessível e conveniente para os usuários explorarem e melhorarem seu bem-estar emocional. Em um mundo onde a saúde mental é cada vez mais reconhecida como uma prioridade, o Mindassist representa uma ferramenta inovadora e acessível para promover o autocuidado e a resiliência emocional.
+
 
 
 ## Etapa 1: Requisitos do produto
