@@ -37,11 +37,9 @@ O Mindassist é terapêutico, mas não é terapia. Enquanto um terapeuta é um p
 * [Diagrama de Contêiner](docs/diagrama-de-conteiner.md)
 * [Roteiro de implementação](docs/roteiro-de-implementacao.md)
 
-### Etapa 4: Testes e implantação da aplicação em nuvem
+### Etapa 4 e 5: Iimplantação da aplicação em nuvem e Entrega e apresentação do produto
 
-* [Roteiro de testes](docs/roteiro-de-teste-e-deploy.md)
+* [Apresentação do Produto](docs/apresntacao-do-produto.md)
 * [Roteiro de implementação](docs/roteiro-de-implementacao.md)
 
-### Etapa 5: Entrega e apresentação do produto
 
-* [Roteiro para entrega e apresentação](docs/roteiro-de-entrega-e-apresentacao.md)
